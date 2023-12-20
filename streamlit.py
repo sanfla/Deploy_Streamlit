@@ -10,7 +10,7 @@ nim = st.text_input("Masukan NIM", key='input2')
 if nama:
     st.text("Nama: " + nama)
     if len(nim) != 10:
-        st.text("Nim yang anda masukan salah")
+        st.text("Nim yang anda masukan salah banget")
     else:
         st.text("Nim: " + nim)
 
